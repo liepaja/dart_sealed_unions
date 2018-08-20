@@ -8,7 +8,8 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  func: "^1.0.0"
+  func:
+    git: https://github.com/liepaja/func.git
 
 dev_dependencies:
   test: "^0.12.4+5"
